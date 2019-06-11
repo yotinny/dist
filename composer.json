@@ -1,3 +1,4 @@
-$ echo '{}' > composer.json
-$ echo '<?php include_once("index.html"); ?>' > index.php
-$ mv index.html 
+<?php 
+  include_once("index.html"); 
+?>
+
