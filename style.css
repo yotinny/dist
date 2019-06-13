@@ -39,6 +39,7 @@
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
+  
 }
 .form button:hover,.form button:active,.form button:focus {
   background: #43A047;
@@ -64,7 +65,7 @@
 .container:before, .container:after {
   content: "";
   display: block;
-  clear: both;
+  /* clear: both; */
 }
 .container .info {
   margin: 50px auto;
@@ -98,3 +99,5 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
 }
+
+
